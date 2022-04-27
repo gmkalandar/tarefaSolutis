@@ -77,8 +77,7 @@ Após a execução a inicialização conseguirá acessar:
 
 ###### GitHub - https://github.com/elayneargollo/votacao_solutis
 ###### Swagger - http://localhost:8080/swagger-ui.html#/
-###### Coleção Postman - collection.json
-
+###### Coleção Postman - https://github.com/gmkalandar/tarefaSolutis/blob/main/TarefaSolutis.postman_collection.json
 
 ## Tarefa Principal
 
