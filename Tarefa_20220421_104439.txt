@@ -1,0 +1,6 @@
+WARNING - 10:44:40: Creating types 
+WARNING - 10:44:40: Initializing types
+WARNING - 10:44:44: Generic post-process : Creating usages and associations
+WARNING - 10:44:44: Generic post-process : Creating activities
+WARNING - 10:44:45: Saving uml file /resource/Tarefa/Tarefa.uml
+WARNING - 10:44:45: Uml file /resource/Tarefa/Tarefa.uml saved

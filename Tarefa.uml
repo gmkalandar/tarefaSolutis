@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MP2PUMF5EeyYXZsEGD2Nuw" name="Tarefa">
+  <elementImport xmi:id="_MVouQMF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_MVouQcF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_MVpVUMF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_MVpVUcF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_MVpVUsF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_MVpVU8F5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_MVpVVMF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_MVpVVcF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_MVp8YMF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_MVp8YcF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_MVp8YsF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_MVrKgMF5EeyYXZsEGD2Nuw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packageImport xmi:id="_MVhZgMF5EeyYXZsEGD2Nuw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_MVkc0MF5EeyYXZsEGD2Nuw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MYQkcMF5EeyYXZsEGD2Nuw" name="br">
+    <packagedElement xmi:type="uml:Package" xmi:id="_MYQkccF5EeyYXZsEGD2Nuw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_MYQkcsF5EeyYXZsEGD2Nuw" name="solutis">
+        <packagedElement xmi:type="uml:Package" xmi:id="_MYRLgMF5EeyYXZsEGD2Nuw" name="tarefa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_MYbjkMF5EeyYXZsEGD2Nuw" name="controller">
+            <packagedElement xmi:type="uml:Package" xmi:id="_MYyv8MF5EeyYXZsEGD2Nuw" name="dto">
+              <packagedElement xmi:type="uml:Class" xmi:id="_MY9IAMF5EeyYXZsEGD2Nuw" name="CedulaEletronicaDto" visibility="public">
+                <elementImport xmi:id="_MfqM8sF5EeyYXZsEGD2Nuw" importedElement="_MfqM8cF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MfqM88F5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_Mfq0AsF5EeyYXZsEGD2Nuw" importedElement="_Mfq0AcF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MfrbEMF5EeyYXZsEGD2Nuw" importedElement="_MZWwoMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MfrbEcF5EeyYXZsEGD2Nuw" importedElement="_MZXXsMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MfrbEsF5EeyYXZsEGD2Nuw" importedElement="_MZNmsMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <ownedOperation xmi:id="_MgM_gMF5EeyYXZsEGD2Nuw" name="CedulaEletronicaDto" visibility="public">
+                  <ownedParameter xmi:id="_MgM_gcF5EeyYXZsEGD2Nuw" name="cedulaEletronica" type="_MZWwoMF5EeyYXZsEGD2Nuw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Mg5jEsF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                  <ownedParameter xmi:id="_Mg5jE8F5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MhicQMF5EeyYXZsEGD2Nuw" name="getPauta" visibility="public">
+                  <ownedParameter xmi:id="_MhicQcF5EeyYXZsEGD2Nuw" type="_MZXXsMF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MiNKoMF5EeyYXZsEGD2Nuw" name="getDataDoVoto" visibility="public">
+                  <ownedParameter xmi:id="_MiNKocF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Mi01sMF5EeyYXZsEGD2Nuw" name="getValorDoVoto" visibility="public">
+                  <ownedParameter xmi:id="_Mi01scF5EeyYXZsEGD2Nuw" type="_MZNmsMF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MjMpIMF5EeyYXZsEGD2Nuw" name="getHashVoto" visibility="public">
+                  <ownedParameter xmi:id="_MjMpIcF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MkCWoMF5EeyYXZsEGD2Nuw" name="valueOf" visibility="public" isStatic="true">
+                  <ownedParameter xmi:id="_MkCWocF5EeyYXZsEGD2Nuw" name="cedulaEletronica" type="_MdvhYsF5EeyYXZsEGD2Nuw"/>
+                  <ownedParameter xmi:id="_MkCWosF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_MZD1sMF5EeyYXZsEGD2Nuw" name="PautaDto" visibility="public">
+                <elementImport xmi:id="_MkZjAMF5EeyYXZsEGD2Nuw" importedElement="_MfqM8cF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MkZjAcF5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MkZjAsF5EeyYXZsEGD2Nuw" importedElement="_Mfq0AcF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MkaKEMF5EeyYXZsEGD2Nuw" importedElement="_MZXXsMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <ownedOperation xmi:id="_MktsEMF5EeyYXZsEGD2Nuw" name="PautaDto" visibility="public">
+                  <ownedParameter xmi:id="_MktsEcF5EeyYXZsEGD2Nuw" name="pauta" type="_MZXXsMF5EeyYXZsEGD2Nuw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MlK_EMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                  <ownedParameter xmi:id="_MlK_EcF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MljZkMF5EeyYXZsEGD2Nuw" name="getNome" visibility="public">
+                  <ownedParameter xmi:id="_MljZkcF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Ml5-4MF5EeyYXZsEGD2Nuw" name="getDuracao" visibility="public">
+                  <ownedParameter xmi:id="_Ml5-4cF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MmVcsMF5EeyYXZsEGD2Nuw" name="getInicioDoPeriodoDeVotacao" visibility="public">
+                  <ownedParameter xmi:id="_MmVcscF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MmwTcMF5EeyYXZsEGD2Nuw" name="getFimDoPeriodoDeVotacao" visibility="public">
+                  <ownedParameter xmi:id="_MmwTccF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MnViQMF5EeyYXZsEGD2Nuw" name="valueOf" visibility="public" isStatic="true">
+                  <ownedParameter xmi:id="_MnViQcF5EeyYXZsEGD2Nuw" name="pauta" type="_MdvhYsF5EeyYXZsEGD2Nuw"/>
+                  <ownedParameter xmi:id="_MnViQsF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_MZEcwMF5EeyYXZsEGD2Nuw" name="ResultadoDaApuracaoDto" visibility="public">
+                <elementImport xmi:id="_MnkLwMF5EeyYXZsEGD2Nuw" importedElement="_MfqM8cF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MnkLwcF5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MnkLwsF5EeyYXZsEGD2Nuw" importedElement="_Mfq0AcF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_Mnky0MF5EeyYXZsEGD2Nuw" importedElement="_MZXXsMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_Mnky0cF5EeyYXZsEGD2Nuw" importedElement="_MZX-wMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_Mnky0sF5EeyYXZsEGD2Nuw" importedElement="_MZXXscF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <ownedOperation xmi:id="_Mn5i8MF5EeyYXZsEGD2Nuw" name="ResultadoDaApuracaoDto" visibility="public">
+                  <ownedParameter xmi:id="_Mn5i8cF5EeyYXZsEGD2Nuw" name="resultadoDaApuracao" type="_MZX-wMF5EeyYXZsEGD2Nuw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MoTyoMF5EeyYXZsEGD2Nuw" name="getStatusDaApuracao" visibility="public">
+                  <ownedParameter xmi:id="_MoTyocF5EeyYXZsEGD2Nuw" type="_MZXXscF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MovQcMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                  <ownedParameter xmi:id="_MovQccF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MpI5EMF5EeyYXZsEGD2Nuw" name="getPauta" visibility="public">
+                  <ownedParameter xmi:id="_MpI5EcF5EeyYXZsEGD2Nuw" type="_MZXXsMF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Mq6asMF5EeyYXZsEGD2Nuw" name="getOpcaoVencedora" visibility="public">
+                  <ownedParameter xmi:id="_Mq6ascF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MrVRcMF5EeyYXZsEGD2Nuw" name="getVotosSim" visibility="public">
+                  <ownedParameter xmi:id="_MrVRccF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MrvhIMF5EeyYXZsEGD2Nuw" name="getPorcentagemVotosSim" visibility="public">
+                  <ownedParameter xmi:id="_MrvhIcF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MsH7oMF5EeyYXZsEGD2Nuw" name="getVotosNao" visibility="public">
+                  <ownedParameter xmi:id="_MsH7ocF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MsbdoMF5EeyYXZsEGD2Nuw" name="getPorcentagemVotosNao" visibility="public">
+                  <ownedParameter xmi:id="_MsbdocF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MsvmsMF5EeyYXZsEGD2Nuw" name="getVotosAdulterados" visibility="public">
+                  <ownedParameter xmi:id="_MsvmscF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MtE94MF5EeyYXZsEGD2Nuw" name="isValidadeDoPleito" visibility="public">
+                  <ownedParameter xmi:id="_MtE94cF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Mtl7QMF5EeyYXZsEGD2Nuw" name="valueOf" visibility="public" isStatic="true">
+                  <ownedParameter xmi:id="_Mtl7QcF5EeyYXZsEGD2Nuw" name="resultadoDaApuracao" type="_MdvhYsF5EeyYXZsEGD2Nuw"/>
+                  <ownedParameter xmi:id="_Mtl7QsF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_MZIHIMF5EeyYXZsEGD2Nuw" name="EleitorDto" visibility="public">
+                <elementImport xmi:id="_MtxhcMF5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MtxhccF5EeyYXZsEGD2Nuw" importedElement="_Mfq0AcF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <elementImport xmi:id="_MtyIgMF5EeyYXZsEGD2Nuw" importedElement="_MZQqAMF5EeyYXZsEGD2Nuw" visibility="private"/>
+                <ownedOperation xmi:id="_MuCAIMF5EeyYXZsEGD2Nuw" name="EleitorDto" visibility="public">
+                  <ownedParameter xmi:id="_MuCAIcF5EeyYXZsEGD2Nuw" name="eleitor" type="_MZQqAMF5EeyYXZsEGD2Nuw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MuWJMMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                  <ownedParameter xmi:id="_MuWJMcF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MupEIMF5EeyYXZsEGD2Nuw" name="getNome" visibility="public">
+                  <ownedParameter xmi:id="_MupEIcF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Mu3toMF5EeyYXZsEGD2Nuw" name="getCpf" visibility="public">
+                  <ownedParameter xmi:id="_Mu3tocF5EeyYXZsEGD2Nuw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_MvPhEMF5EeyYXZsEGD2Nuw" name="valueOf" visibility="public" isStatic="true">
+                  <ownedParameter xmi:id="_MvPhEcF5EeyYXZsEGD2Nuw" name="eleitor" type="_MdvhYsF5EeyYXZsEGD2Nuw"/>
+                  <ownedParameter xmi:id="_MvPhEsF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Usage" xmi:id="_NAoMA8F5EeyYXZsEGD2Nuw" name="dto_time" client="_MYyv8MF5EeyYXZsEGD2Nuw" supplier="_MfqM8MF5EeyYXZsEGD2Nuw"/>
+              <packagedElement xmi:type="uml:Usage" xmi:id="_NAozEMF5EeyYXZsEGD2Nuw" name="dto_util" client="_MYyv8MF5EeyYXZsEGD2Nuw" supplier="_MdvhYcF5EeyYXZsEGD2Nuw"/>
+              <packagedElement xmi:type="uml:Usage" xmi:id="_NAozEcF5EeyYXZsEGD2Nuw" name="dto_stream" client="_MYyv8MF5EeyYXZsEGD2Nuw" supplier="_Mfq0AMF5EeyYXZsEGD2Nuw"/>
+              <packagedElement xmi:type="uml:Usage" xmi:id="_NAozEsF5EeyYXZsEGD2Nuw" name="dto_modelo" client="_MYyv8MF5EeyYXZsEGD2Nuw" supplier="_MZIuMMF5EeyYXZsEGD2Nuw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MYdYwMF5EeyYXZsEGD2Nuw" name="EleitorController" visibility="public">
+              <elementImport xmi:id="_MdUqo8F5EeyYXZsEGD2Nuw" importedElement="_MdUqosF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdV4wsF5EeyYXZsEGD2Nuw" importedElement="_MdV4wcF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdV4w8F5EeyYXZsEGD2Nuw" importedElement="_MZprkMF5EeyYXZsEGD2Nuw" visibility="private"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MYhDIMF5EeyYXZsEGD2Nuw" name="ResultadoDaApuracaoController" visibility="public">
+              <elementImport xmi:id="_MdfpwMF5EeyYXZsEGD2Nuw" importedElement="_MdUqosF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdgQ0MF5EeyYXZsEGD2Nuw" importedElement="_MdV4wcF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdgQ0cF5EeyYXZsEGD2Nuw" importedElement="_MZsu4MF5EeyYXZsEGD2Nuw" visibility="private"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MYrbMMF5EeyYXZsEGD2Nuw" name="PautaController" visibility="public">
+              <elementImport xmi:id="_MdvhY8F5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdwIcMF5EeyYXZsEGD2Nuw" importedElement="_MdUqosF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdwvgcF5EeyYXZsEGD2Nuw" importedElement="_MdwvgMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdxWkMF5EeyYXZsEGD2Nuw" importedElement="_MdV4wcF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdxWkcF5EeyYXZsEGD2Nuw" importedElement="_MZD1sMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdxWksF5EeyYXZsEGD2Nuw" importedElement="_MZXXsMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MdxWk8F5EeyYXZsEGD2Nuw" importedElement="_MZhvwMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <ownedOperation xmi:id="_MeOCgMF5EeyYXZsEGD2Nuw" name="buscarTodas" visibility="public">
+                <ownedParameter xmi:id="_MeOCgcF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MYyI4MF5EeyYXZsEGD2Nuw" name="CedulaEletronicaController" visibility="public">
+              <elementImport xmi:id="_Meo5QMF5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Meo5QcF5EeyYXZsEGD2Nuw" importedElement="_MdUqosF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Meo5QsF5EeyYXZsEGD2Nuw" importedElement="_MdwvgMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MepgUMF5EeyYXZsEGD2Nuw" importedElement="_MdV4wcF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MepgUcF5EeyYXZsEGD2Nuw" importedElement="_MY9IAMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MepgUsF5EeyYXZsEGD2Nuw" importedElement="_MZWwoMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MepgU8F5EeyYXZsEGD2Nuw" importedElement="_MZmBMMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <ownedOperation xmi:id="_MfNhAMF5EeyYXZsEGD2Nuw" name="buscarTodas" visibility="public">
+                <ownedParameter xmi:id="_MfNhAcF5EeyYXZsEGD2Nuw" name="idDaPauta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_MfNhAsF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAnk8MF5EeyYXZsEGD2Nuw" name="controller_annotation" client="_MYbjkMF5EeyYXZsEGD2Nuw" supplier="_MdUqocF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAnk8cF5EeyYXZsEGD2Nuw" name="controller_annotation" client="_MYbjkMF5EeyYXZsEGD2Nuw" supplier="_MdV4wMF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAnk8sF5EeyYXZsEGD2Nuw" name="controller_repository" client="_MYbjkMF5EeyYXZsEGD2Nuw" supplier="_MZYl0MF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAoMAMF5EeyYXZsEGD2Nuw" name="controller_util" client="_MYbjkMF5EeyYXZsEGD2Nuw" supplier="_MdvhYcF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAoMAcF5EeyYXZsEGD2Nuw" name="controller_dto" client="_MYbjkMF5EeyYXZsEGD2Nuw" supplier="_MYyv8MF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAoMAsF5EeyYXZsEGD2Nuw" name="controller_modelo" client="_MYbjkMF5EeyYXZsEGD2Nuw" supplier="_MZIuMMF5EeyYXZsEGD2Nuw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_MYa8gMF5EeyYXZsEGD2Nuw" name="TarefaApplication" visibility="public">
+            <elementImport xmi:id="_MbznssF5EeyYXZsEGD2Nuw" importedElement="_MbznscF5EeyYXZsEGD2Nuw" visibility="private"/>
+            <elementImport xmi:id="_Mb010sF5EeyYXZsEGD2Nuw" importedElement="_Mb010cF5EeyYXZsEGD2Nuw" visibility="private"/>
+            <elementImport xmi:id="_Mb2rAMF5EeyYXZsEGD2Nuw" importedElement="_Mb2D88F5EeyYXZsEGD2Nuw" visibility="private"/>
+            <ownedOperation xmi:id="_McuNsMF5EeyYXZsEGD2Nuw" name="main" visibility="public" isStatic="true">
+              <ownedParameter xmi:id="_McuNscF5EeyYXZsEGD2Nuw" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_McuNssF5EeyYXZsEGD2Nuw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_MZIuMMF5EeyYXZsEGD2Nuw" name="modelo">
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_MZNmsMF5EeyYXZsEGD2Nuw" name="ValorDoVoto" visibility="public">
+              <ownedLiteral xmi:id="_MvagMMF5EeyYXZsEGD2Nuw" name="NÃO">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_MvbHQMF5EeyYXZsEGD2Nuw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_Mvc8cMF5EeyYXZsEGD2Nuw" name="SIM">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_Mvc8ccF5EeyYXZsEGD2Nuw"/>
+              </ownedLiteral>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MZQqAMF5EeyYXZsEGD2Nuw" name="Eleitor" visibility="public">
+              <elementImport xmi:id="_Mvzhw8F5EeyYXZsEGD2Nuw" importedElement="_MvzhwsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Mv0I0cF5EeyYXZsEGD2Nuw" importedElement="_Mv0I0MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Mv0v4cF5EeyYXZsEGD2Nuw" importedElement="_Mv0v4MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Mv0v48F5EeyYXZsEGD2Nuw" importedElement="_Mv0v4sF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Mv1-AcF5EeyYXZsEGD2Nuw" importedElement="_Mv1-AMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <ownedOperation xmi:id="_Mv8rsMF5EeyYXZsEGD2Nuw" name="Eleitor" visibility="public"/>
+              <ownedOperation xmi:id="_MwSC4MF5EeyYXZsEGD2Nuw" name="Eleitor" visibility="public">
+                <ownedParameter xmi:id="_MwSC4cF5EeyYXZsEGD2Nuw" name="id" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_MwSC4sF5EeyYXZsEGD2Nuw" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_MwSC48F5EeyYXZsEGD2Nuw" name="cpf">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Mwbz4MF5EeyYXZsEGD2Nuw" name="getNome" visibility="public">
+                <ownedParameter xmi:id="_Mwbz4cF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_MwsSkMF5EeyYXZsEGD2Nuw" name="setNome" visibility="public">
+                <ownedParameter xmi:id="_MwsSkcF5EeyYXZsEGD2Nuw" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Mw2DkMF5EeyYXZsEGD2Nuw" name="getCpf" visibility="public">
+                <ownedParameter xmi:id="_Mw2DkcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_MxEGAMF5EeyYXZsEGD2Nuw" name="setCpf" visibility="public">
+                <ownedParameter xmi:id="_MxEGAcF5EeyYXZsEGD2Nuw" name="cpf">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_MxRhYMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                <ownedParameter xmi:id="_MxRhYcF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MZWwoMF5EeyYXZsEGD2Nuw" name="CedulaEletronica" visibility="public">
+              <elementImport xmi:id="_MxbSYMF5EeyYXZsEGD2Nuw" importedElement="_MfqM8cF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_Mxb5cMF5EeyYXZsEGD2Nuw" importedElement="_MvzhwsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxcggMF5EeyYXZsEGD2Nuw" importedElement="_Mxb5ccF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxdHkMF5EeyYXZsEGD2Nuw" importedElement="_MxcggcF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxdHkcF5EeyYXZsEGD2Nuw" importedElement="_Mv0I0MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxdHksF5EeyYXZsEGD2Nuw" importedElement="_Mv0v4MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxduoMF5EeyYXZsEGD2Nuw" importedElement="_Mv0v4sF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxeVsMF5EeyYXZsEGD2Nuw" importedElement="_MxduocF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_MxeVscF5EeyYXZsEGD2Nuw" importedElement="_Mv1-AMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <ownedOperation xmi:id="_Mxm4kMF5EeyYXZsEGD2Nuw" name="getHashVoto" visibility="public">
+                <ownedParameter xmi:id="_Mxm4kcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Mx5McMF5EeyYXZsEGD2Nuw" name="setHashVoto" visibility="public">
+                <ownedParameter xmi:id="_Mx5MccF5EeyYXZsEGD2Nuw" name="hashVoto">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_MyJrIMF5EeyYXZsEGD2Nuw" name="CedulaEletronica" visibility="public"/>
+              <ownedOperation xmi:id="_MyzLYMF5EeyYXZsEGD2Nuw" name="CedulaEletronica" visibility="public">
+                <ownedParameter xmi:id="_MyzLYcF5EeyYXZsEGD2Nuw" name="id" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_MyzLYsF5EeyYXZsEGD2Nuw" name="pauta" type="_MZXXsMF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_MyzLY8F5EeyYXZsEGD2Nuw" name="dataDoVoto" type="_MfqM8cF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_MyzLZMF5EeyYXZsEGD2Nuw" name="valorDoVoto" type="_MZNmsMF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Mzd5wMF5EeyYXZsEGD2Nuw" name="CedulaEletronica" visibility="public">
+                <ownedParameter xmi:id="_Mzd5wcF5EeyYXZsEGD2Nuw" name="id" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_Mzd5wsF5EeyYXZsEGD2Nuw" name="pauta" type="_MZXXsMF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_Mzd5w8F5EeyYXZsEGD2Nuw" name="dataDoVoto" type="_MfqM8cF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_Mzd5xMF5EeyYXZsEGD2Nuw" name="valorDoVoto" type="_MZNmsMF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_Mzd5xcF5EeyYXZsEGD2Nuw" name="hashVoto">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_MzvmkMF5EeyYXZsEGD2Nuw" name="getPauta" visibility="public">
+                <ownedParameter xmi:id="_MzvmkcF5EeyYXZsEGD2Nuw" type="_MZXXsMF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M0HaAMF5EeyYXZsEGD2Nuw" name="setPauta" visibility="public">
+                <ownedParameter xmi:id="_M0HaAcF5EeyYXZsEGD2Nuw" name="pauta" type="_MZXXsMF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M0X4sMF5EeyYXZsEGD2Nuw" name="getDataDoVoto" visibility="public">
+                <ownedParameter xmi:id="_M0X4scF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M0vFEMF5EeyYXZsEGD2Nuw" name="setDataDoVoto" visibility="public">
+                <ownedParameter xmi:id="_M0vFEcF5EeyYXZsEGD2Nuw" name="dataDoVoto" type="_MfqM8cF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M0-VoMF5EeyYXZsEGD2Nuw" name="isValorDoVoto" visibility="public">
+                <ownedParameter xmi:id="_M0-VocF5EeyYXZsEGD2Nuw" type="_MZNmsMF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M1Ts0MF5EeyYXZsEGD2Nuw" name="setValorDoVoto" visibility="public">
+                <ownedParameter xmi:id="_M1Ts0cF5EeyYXZsEGD2Nuw" name="valorDoVoto" type="_MZNmsMF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M1i9YMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                <ownedParameter xmi:id="_M1i9YcF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MZXXsMF5EeyYXZsEGD2Nuw" name="Pauta" visibility="public">
+              <elementImport xmi:id="_M1yN8MF5EeyYXZsEGD2Nuw" importedElement="_MfqM8cF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M1yN8cF5EeyYXZsEGD2Nuw" importedElement="_MdvhYsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M1y1AcF5EeyYXZsEGD2Nuw" importedElement="_M1y1AMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M1zcEMF5EeyYXZsEGD2Nuw" importedElement="_MvzhwsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M1zcEcF5EeyYXZsEGD2Nuw" importedElement="_Mv0I0MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M1zcEsF5EeyYXZsEGD2Nuw" importedElement="_Mv0v4MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M1zcE8F5EeyYXZsEGD2Nuw" importedElement="_Mv0v4sF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M10DIcF5EeyYXZsEGD2Nuw" importedElement="_M10DIMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M11RQcF5EeyYXZsEGD2Nuw" importedElement="_M11RQMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M114UcF5EeyYXZsEGD2Nuw" importedElement="_M114UMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M114UsF5EeyYXZsEGD2Nuw" importedElement="_Mv1-AMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <ownedOperation xmi:id="_M17-8MF5EeyYXZsEGD2Nuw" name="Pauta" visibility="public"/>
+              <ownedOperation xmi:id="_M2RWIMF5EeyYXZsEGD2Nuw" name="Pauta" visibility="public">
+                <ownedParameter xmi:id="_M2RWIcF5EeyYXZsEGD2Nuw" name="id" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_M2RWIsF5EeyYXZsEGD2Nuw" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M2mtUMF5EeyYXZsEGD2Nuw" name="Pauta" visibility="public">
+                <ownedParameter xmi:id="_M2mtUcF5EeyYXZsEGD2Nuw" name="id" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_M2mtUsF5EeyYXZsEGD2Nuw" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_M2mtU8F5EeyYXZsEGD2Nuw" name="duracao">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M2yTgMF5EeyYXZsEGD2Nuw" name="getNome" visibility="public">
+                <ownedParameter xmi:id="_M2yTgcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M3BkEMF5EeyYXZsEGD2Nuw" name="setNome" visibility="public">
+                <ownedParameter xmi:id="_M3BkEcF5EeyYXZsEGD2Nuw" name="nome">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M3Q0oMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                <ownedParameter xmi:id="_M3Q0ocF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M3jvkMF5EeyYXZsEGD2Nuw" name="getInicioDoPeriodoDeVotacao" visibility="public">
+                <ownedParameter xmi:id="_M3jvkcF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M37jAMF5EeyYXZsEGD2Nuw" name="setInicioDoPeriodoDeVotacao" visibility="public">
+                <ownedParameter xmi:id="_M37jAcF5EeyYXZsEGD2Nuw" name="inicioDoPeriodoDeVotacao" type="_MfqM8cF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M4MowMF5EeyYXZsEGD2Nuw" name="getFimDoPeriodoDeVotacao" visibility="public">
+                <ownedParameter xmi:id="_M4MowcF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M4lDQMF5EeyYXZsEGD2Nuw" name="setFimDoPeriodoDeVotacao" visibility="public">
+                <ownedParameter xmi:id="_M4lqUMF5EeyYXZsEGD2Nuw" name="fimDoPeriodoDeVotacao" type="_MfqM8cF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M42JAMF5EeyYXZsEGD2Nuw" name="getDuracao" visibility="public">
+                <ownedParameter xmi:id="_M42JAcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M5H10MF5EeyYXZsEGD2Nuw" name="setDuracao" visibility="public">
+                <ownedParameter xmi:id="_M5H10cF5EeyYXZsEGD2Nuw" name="duracao">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M5WfUMF5EeyYXZsEGD2Nuw" name="getEleitores" visibility="public">
+                <ownedParameter xmi:id="_M5WfUcF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M5vg4MF5EeyYXZsEGD2Nuw" name="setEleitores" visibility="public">
+                <ownedParameter xmi:id="_M5vg4cF5EeyYXZsEGD2Nuw" name="eleitores" type="_MdvhYsF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_MZXXscF5EeyYXZsEGD2Nuw" name="StatusDaApuracao" visibility="public">
+              <ownedLiteral xmi:id="_M54DwMF5EeyYXZsEGD2Nuw" name="PARCIAL">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_M54DwcF5EeyYXZsEGD2Nuw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_M54q0MF5EeyYXZsEGD2Nuw" name="FINAL">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_M54q0cF5EeyYXZsEGD2Nuw"/>
+              </ownedLiteral>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MZX-wMF5EeyYXZsEGD2Nuw" name="ResultadoDaApuracao" visibility="public">
+              <elementImport xmi:id="_M58VMMF5EeyYXZsEGD2Nuw" importedElement="_MfqM8cF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M58VMcF5EeyYXZsEGD2Nuw" importedElement="_MvzhwsF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M58VMsF5EeyYXZsEGD2Nuw" importedElement="_Mxb5ccF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M58VM8F5EeyYXZsEGD2Nuw" importedElement="_MxcggcF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M588QMF5EeyYXZsEGD2Nuw" importedElement="_Mv0I0MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M588QcF5EeyYXZsEGD2Nuw" importedElement="_Mv0v4MF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M588QsF5EeyYXZsEGD2Nuw" importedElement="_Mv0v4sF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M588Q8F5EeyYXZsEGD2Nuw" importedElement="_MxduocF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <elementImport xmi:id="_M588RMF5EeyYXZsEGD2Nuw" importedElement="_Mv1-AMF5EeyYXZsEGD2Nuw" visibility="private"/>
+              <ownedOperation xmi:id="_M6BNsMF5EeyYXZsEGD2Nuw" name="ResultadoDaApuracao" visibility="public"/>
+              <ownedOperation xmi:id="_M6RsYMF5EeyYXZsEGD2Nuw" name="getStatusDaApuracao" visibility="public">
+                <ownedParameter xmi:id="_M6RsYcF5EeyYXZsEGD2Nuw" type="_MZXXscF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M6qt8MF5EeyYXZsEGD2Nuw" name="setStatusDaApuracao" visibility="public">
+                <ownedParameter xmi:id="_M6qt8cF5EeyYXZsEGD2Nuw" name="statusDaApuracao" type="_MZXXscF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M66lkMF5EeyYXZsEGD2Nuw" name="getDataDaApuracao" visibility="public">
+                <ownedParameter xmi:id="_M66lkcF5EeyYXZsEGD2Nuw" type="_MfqM8cF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M7P8wMF5EeyYXZsEGD2Nuw" name="setDataDaApuracao" visibility="public">
+                <ownedParameter xmi:id="_M7P8wcF5EeyYXZsEGD2Nuw" name="dataDaApuracao" type="_MfqM8cF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M7f0YMF5EeyYXZsEGD2Nuw" name="getId" visibility="public">
+                <ownedParameter xmi:id="_M7f0YcF5EeyYXZsEGD2Nuw" type="_Mg5jEcF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M7sosMF5EeyYXZsEGD2Nuw" name="getOpcaoVencedora" visibility="public">
+                <ownedParameter xmi:id="_M7soscF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M77SMMF5EeyYXZsEGD2Nuw" name="setOpcaoVencedora" visibility="public">
+                <ownedParameter xmi:id="_M77SMcF5EeyYXZsEGD2Nuw" name="opcaoVencedora">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M8GRUMF5EeyYXZsEGD2Nuw" name="getVotosSim" visibility="public">
+                <ownedParameter xmi:id="_M8GRUcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M8UTwMF5EeyYXZsEGD2Nuw" name="setVotosSim" visibility="public">
+                <ownedParameter xmi:id="_M8UTwcF5EeyYXZsEGD2Nuw" name="votosSim">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M8hvIMF5EeyYXZsEGD2Nuw" name="getPorcentagemVotosSim" visibility="public">
+                <ownedParameter xmi:id="_M8hvIcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M8xmwMF5EeyYXZsEGD2Nuw" name="setPorcentagemVotosSim" visibility="public">
+                <ownedParameter xmi:id="_M8xmwcF5EeyYXZsEGD2Nuw" name="porcentagemVotosSim">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M89M8MF5EeyYXZsEGD2Nuw" name="getVotosNao" visibility="public">
+                <ownedParameter xmi:id="_M89M8cF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M9MdgMF5EeyYXZsEGD2Nuw" name="setVotosNao" visibility="public">
+                <ownedParameter xmi:id="_M9MdgcF5EeyYXZsEGD2Nuw" name="votosNao">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M9W1kMF5EeyYXZsEGD2Nuw" name="getPorcentagemVotosNao" visibility="public">
+                <ownedParameter xmi:id="_M9W1kcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M9mGIMF5EeyYXZsEGD2Nuw" name="setPorcentagemVotosNao" visibility="public">
+                <ownedParameter xmi:id="_M9mGIcF5EeyYXZsEGD2Nuw" name="porcentagemVotosNao">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M9xsUMF5EeyYXZsEGD2Nuw" name="getVotosAdulterados" visibility="public">
+                <ownedParameter xmi:id="_M9xsUcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M-Bj8MF5EeyYXZsEGD2Nuw" name="setVotosAdulterados" visibility="public">
+                <ownedParameter xmi:id="_M-Bj8cF5EeyYXZsEGD2Nuw" name="votosAdulterados">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M-NKIMF5EeyYXZsEGD2Nuw" name="isValidadeDoPleito" visibility="public">
+                <ownedParameter xmi:id="_M-NKIcF5EeyYXZsEGD2Nuw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M-casMF5EeyYXZsEGD2Nuw" name="setValidadeDoPleito" visibility="public">
+                <ownedParameter xmi:id="_M-cascF5EeyYXZsEGD2Nuw" name="validadeDoPleito">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M-qdIMF5EeyYXZsEGD2Nuw" name="getPauta" visibility="public">
+                <ownedParameter xmi:id="_M-qdIcF5EeyYXZsEGD2Nuw" type="_MZXXsMF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_M--mMMF5EeyYXZsEGD2Nuw" name="setPauta" visibility="public">
+                <ownedParameter xmi:id="_M--mMcF5EeyYXZsEGD2Nuw" name="pauta" type="_MZXXsMF5EeyYXZsEGD2Nuw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NApaIMF5EeyYXZsEGD2Nuw" name="modelo_persistence" client="_MZIuMMF5EeyYXZsEGD2Nuw" supplier="_MvzhwcF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NApaIcF5EeyYXZsEGD2Nuw" name="modelo_lombok" client="_MZIuMMF5EeyYXZsEGD2Nuw" supplier="_Mv1W8MF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NApaIsF5EeyYXZsEGD2Nuw" name="modelo_time" client="_MZIuMMF5EeyYXZsEGD2Nuw" supplier="_MfqM8MF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAqBMMF5EeyYXZsEGD2Nuw" name="modelo_util" client="_MZIuMMF5EeyYXZsEGD2Nuw" supplier="_MdvhYcF5EeyYXZsEGD2Nuw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_MZYl0MF5EeyYXZsEGD2Nuw" name="repository">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MZhvwMF5EeyYXZsEGD2Nuw" name="PautaRepository" visibility="public">
+              <generalization xmi:id="_M_Od0MF5EeyYXZsEGD2Nuw" general="_M_N2wsF5EeyYXZsEGD2Nuw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MZmBMMF5EeyYXZsEGD2Nuw" name="CedulaEletronicaRepository" visibility="public">
+              <generalization xmi:id="_M_Zc8MF5EeyYXZsEGD2Nuw" general="_M_N2wsF5EeyYXZsEGD2Nuw"/>
+              <ownedOperation xmi:id="_M_0TsMF5EeyYXZsEGD2Nuw" name="carregarPorPautaId">
+                <ownedParameter xmi:id="_M_0TscF5EeyYXZsEGD2Nuw" name="idDaPauta" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_M_0TssF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_NAGAgMF5EeyYXZsEGD2Nuw" name="findByPautaId">
+                <ownedParameter xmi:id="_NAGAgcF5EeyYXZsEGD2Nuw" name="idDaPauta" type="_Mg5jEcF5EeyYXZsEGD2Nuw"/>
+                <ownedParameter xmi:id="_NAGAgsF5EeyYXZsEGD2Nuw" type="_MdvhYsF5EeyYXZsEGD2Nuw" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MZprkMF5EeyYXZsEGD2Nuw" name="EleitorRepository" visibility="public">
+              <generalization xmi:id="_NAMuMMF5EeyYXZsEGD2Nuw" general="_M_N2wsF5EeyYXZsEGD2Nuw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_MZsu4MF5EeyYXZsEGD2Nuw" name="ResultadoDaApuracaoRepository" visibility="public">
+              <generalization xmi:id="_NAUqAMF5EeyYXZsEGD2Nuw" general="_M_N2wsF5EeyYXZsEGD2Nuw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAqoQMF5EeyYXZsEGD2Nuw" name="repository_repository" client="_MZYl0MF5EeyYXZsEGD2Nuw" supplier="_M_N2wcF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAqoQcF5EeyYXZsEGD2Nuw" name="repository_modelo" client="_MZYl0MF5EeyYXZsEGD2Nuw" supplier="_MZIuMMF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAqoQsF5EeyYXZsEGD2Nuw" name="repository_util" client="_MZYl0MF5EeyYXZsEGD2Nuw" supplier="_MdvhYcF5EeyYXZsEGD2Nuw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_NAqoQ8F5EeyYXZsEGD2Nuw" name="repository_query" client="_MZYl0MF5EeyYXZsEGD2Nuw" supplier="_M_cgQMF5EeyYXZsEGD2Nuw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_NAmW0MF5EeyYXZsEGD2Nuw" name="tarefa_boot" client="_MYRLgMF5EeyYXZsEGD2Nuw" supplier="_MbznsMF5EeyYXZsEGD2Nuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_NAm94MF5EeyYXZsEGD2Nuw" name="tarefa_autoconfigure" client="_MYRLgMF5EeyYXZsEGD2Nuw" supplier="_Mb010MF5EeyYXZsEGD2Nuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_NAm94cF5EeyYXZsEGD2Nuw" name="tarefa_config" client="_MYRLgMF5EeyYXZsEGD2Nuw" supplier="_Mb2D8sF5EeyYXZsEGD2Nuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_NArPUMF5EeyYXZsEGD2Nuw" name="tarefa_boot" client="_MYRLgMF5EeyYXZsEGD2Nuw" supplier="_MbznsMF5EeyYXZsEGD2Nuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_NArPUcF5EeyYXZsEGD2Nuw" name="tarefa_autoconfigure" client="_MYRLgMF5EeyYXZsEGD2Nuw" supplier="_Mb010MF5EeyYXZsEGD2Nuw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_NArPUsF5EeyYXZsEGD2Nuw" name="tarefa_config" client="_MYRLgMF5EeyYXZsEGD2Nuw" supplier="_Mb2D8sF5EeyYXZsEGD2Nuw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MbzAoMF5EeyYXZsEGD2Nuw" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_MbzAocF5EeyYXZsEGD2Nuw" name="springframework">
+      <packagedElement xmi:type="uml:Package" xmi:id="_MbznsMF5EeyYXZsEGD2Nuw" name="boot">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Mb010MF5EeyYXZsEGD2Nuw" name="autoconfigure">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_Mb010cF5EeyYXZsEGD2Nuw" name="SpringBootApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_MbznscF5EeyYXZsEGD2Nuw" name="SpringApplication"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Mb2D8MF5EeyYXZsEGD2Nuw" name="data">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Mb2D8cF5EeyYXZsEGD2Nuw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Mb2D8sF5EeyYXZsEGD2Nuw" name="config">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_Mb2D88F5EeyYXZsEGD2Nuw" name="EnableSpringDataWebSupport"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_M_N2wMF5EeyYXZsEGD2Nuw" name="jpa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_M_N2wcF5EeyYXZsEGD2Nuw" name="repository">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_M_N2wsF5EeyYXZsEGD2Nuw" name="JpaRepository"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_M_aEAcF5EeyYXZsEGD2Nuw" name="Query"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_M_b5MMF5EeyYXZsEGD2Nuw" name="repository">
+          <packagedElement xmi:type="uml:Package" xmi:id="_M_cgQMF5EeyYXZsEGD2Nuw" name="query">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_M_cgQcF5EeyYXZsEGD2Nuw" name="Param"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MdUDkMF5EeyYXZsEGD2Nuw" name="beans">
+        <packagedElement xmi:type="uml:Package" xmi:id="_MdUqoMF5EeyYXZsEGD2Nuw" name="factory">
+          <packagedElement xmi:type="uml:Package" xmi:id="_MdUqocF5EeyYXZsEGD2Nuw" name="annotation">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_MdUqosF5EeyYXZsEGD2Nuw" name="Autowired"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MdVRsMF5EeyYXZsEGD2Nuw" name="web">
+        <packagedElement xmi:type="uml:Package" xmi:id="_MdVRscF5EeyYXZsEGD2Nuw" name="bind">
+          <packagedElement xmi:type="uml:Package" xmi:id="_MdV4wMF5EeyYXZsEGD2Nuw" name="annotation">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_MdV4wcF5EeyYXZsEGD2Nuw" name="RestController"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_MdwvgMF5EeyYXZsEGD2Nuw" name="RequestMapping"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MdvhYMF5EeyYXZsEGD2Nuw" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_MdvhYcF5EeyYXZsEGD2Nuw" name="util">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Mfq0AMF5EeyYXZsEGD2Nuw" name="stream">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Mfq0AcF5EeyYXZsEGD2Nuw" name="Collectors"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_MdvhYsF5EeyYXZsEGD2Nuw" name="List"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MfqM8MF5EeyYXZsEGD2Nuw" name="time">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_MfqM8cF5EeyYXZsEGD2Nuw" name="LocalDateTime"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Mg5jEMF5EeyYXZsEGD2Nuw" name="lang">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Mg5jEcF5EeyYXZsEGD2Nuw" name="Long"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MvzhwMF5EeyYXZsEGD2Nuw" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_MvzhwcF5EeyYXZsEGD2Nuw" name="persistence">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_MvzhwsF5EeyYXZsEGD2Nuw" name="Entity"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Mv0I0MF5EeyYXZsEGD2Nuw" name="GeneratedValue"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Mv0v4MF5EeyYXZsEGD2Nuw" name="GenerationType"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Mv0v4sF5EeyYXZsEGD2Nuw" name="Id"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Mxb5ccF5EeyYXZsEGD2Nuw" name="EnumType"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_MxcggcF5EeyYXZsEGD2Nuw" name="Enumerated"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_MxduocF5EeyYXZsEGD2Nuw" name="ManyToOne"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_M1y1AMF5EeyYXZsEGD2Nuw" name="CascadeType"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_M10DIMF5EeyYXZsEGD2Nuw" name="JoinColumn"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_M11RQMF5EeyYXZsEGD2Nuw" name="ManyToMany"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_M114UMF5EeyYXZsEGD2Nuw" name="OneToOne"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Mv1W8MF5EeyYXZsEGD2Nuw" name="lombok">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_Mv1-AMF5EeyYXZsEGD2Nuw" name="ToString"/>
+  </packagedElement>
+</uml:Model>
