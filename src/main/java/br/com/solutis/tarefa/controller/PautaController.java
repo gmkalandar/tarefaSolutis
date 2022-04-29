@@ -45,7 +45,7 @@ public class PautaController {
 
 		return PautaDto.valueOf(pautas);
 	}
-
+ 
 	@GetMapping
 	@ApiOperation(value = "Procura por uma única pauta, pelo Id.")
 	@RequestMapping("/id/{idDaPauta}")
